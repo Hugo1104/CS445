@@ -14,9 +14,9 @@ Zhenxuan Yin
 
 ## Direction for project:
 
-To use automatic face swaping, use auto_swap_face(img_source, img_destination). You can pass in a boolean to view the landmarks and triangles.
+To use automatic face swaping, use `auto_swap_face(img_source, img_destination)`. You can pass in a boolean to view the landmarks and triangles.
 
-To use manual face swaping, use manual_swap_face(img_source, img_destination). It will launch a cv2 windows to guide you. After picking the points, press 'Q' to quit selecting.
+To use manual face swaping, use `manual_swap_face(img_source, img_destination)`. It will launch a cv2 windows to guide you. After picking the points, press 'Q' to quit selecting.
 
 ## Direction for git:
 
