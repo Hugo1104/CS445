@@ -23,7 +23,8 @@ def pick_points(image):
 
     cv2.namedWindow("picker")
     cv2.setMouseCallback("picker", mouse_callback)
-    cv2.setWindowTitle("picker", "Use the reference to select points, press Q to quit") 
+    cv2.setWindowTitle("picker", "Use the reference to select points, press Q to quit")
+    cv2.setWindowProperty("picker", cv2.WND_PROP_TOPMOST, 1)
 
     while True:
         image_picker = np.concatenate((image_display, image_guide), axis=1)
