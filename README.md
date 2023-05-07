@@ -14,6 +14,8 @@ Zhenxuan Yin
 
 ## Direction for project:
 
+Please download the database for automatic face swaping here: https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat. You should put it under the `utils` folder.
+
 To use automatic face swaping, use `auto_swap_face(img_source, img_destination)`. You can pass in a boolean to view the landmarks and triangles.
 
 To use manual face swaping, use `manual_swap_face(img_source, img_destination)`. It will launch a cv2 windows to guide you. After picking the points, press 'Q' to quit selecting.
