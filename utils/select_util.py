@@ -35,8 +35,4 @@ def pick_points(image):
             break
 
     cv2.destroyAllWindows()
-
-    plt.figure()
-    plt.imshow(image_display[:, :, [2, 1, 0]])
-
     return points
