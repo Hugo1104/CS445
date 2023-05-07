@@ -10,7 +10,7 @@ Shuai Wei
 
 ## 3. Link the warped triangles together & Replace the face on the destination image
 
-Zhenxuan Wei
+Zhenxuan Yin
 
 ## Direction for git:
 
